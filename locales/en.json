@@ -80,7 +80,9 @@
     "save_this_invoice": "Save this invoice",
     "pay_this_invoice": "Pay this invoice",
     "share_prefilled_invoice": "Share prefilled invoice",
-    "view_on_etherscan": "View on Etherscan"
+    "view_on_etherscan": "View on Etherscan",
+    "view_on_polygonscan": "View on Polygonscan",
+    "view_on_bscscan": "View on BscScan"
   },
   "alerts": {
     "invoice_created": "Invoice created!"
@@ -111,7 +113,7 @@
     }
   },
   "options": {
-    "networks": ["mainnet", "ropsten"],
+    "networks": ["mainnet", "ropsten", "rinkeby", "polygon", "mumbai", "bsc", "bsctest"],
     "line_item_quantity_types": {
       "hours": "Hours",
       "days": "Days",
